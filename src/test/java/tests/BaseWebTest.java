@@ -20,7 +20,7 @@ public class BaseWebTest {
         DriverManager.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         wait = new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(15));
         DriverManager.getDriver().get("https://www.saucedemo.com/");
-        System.out.println("################  ejecuté setIUp ####################");
+
     }
 
     @AfterEach
