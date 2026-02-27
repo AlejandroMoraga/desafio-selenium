@@ -30,7 +30,7 @@ public class ProductosPageTest extends BaseWebTest {
     }
 
     @Test
-    public void OrdenamientoPrecioMayoraMenorTest() throws InterruptedException {
+    public void OrdenamientoPrecioMayoraMenorTest(){
         String usuario ="standard_user";
         String password = "secret_sauce";
 
