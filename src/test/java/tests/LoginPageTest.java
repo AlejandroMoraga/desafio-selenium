@@ -4,12 +4,11 @@ import PageObjects.LoginPage;
 import PageObjects.ProductosPage;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class LoginPageTest extends BaseWebTest {
     @Test
-    public void loginExitosoTest() throws InterruptedException {
+    public void loginExitosoTest(){
         String usuario ="standard_user";
         String password = "secret_sauce";
         String tituloEsperado = "Products";

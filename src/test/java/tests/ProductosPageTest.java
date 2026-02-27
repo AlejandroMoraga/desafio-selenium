@@ -5,14 +5,13 @@ import PageObjects.LoginPage;
 import PageObjects.ProductosPage;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebElement;
-
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class ProductosPageTest extends BaseWebTest {
     @Test
-    public void agregarPrimerItemAlCarrito() throws InterruptedException {
+    public void agregarPrimerItemAlCarrito(){
 
         String usuario ="standard_user";
         String password = "secret_sauce";

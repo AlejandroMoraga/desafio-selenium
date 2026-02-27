@@ -2,7 +2,6 @@ package tests;
 
 import PageObjects.*;
 import org.junit.jupiter.api.Test;
-
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class FlujoCompletoTest extends BaseWebTest{
