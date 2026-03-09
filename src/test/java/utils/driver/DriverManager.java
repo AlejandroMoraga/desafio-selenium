@@ -28,6 +28,7 @@ public class DriverManager {
     public static void initDriver(){
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--incognito");
+        options.addArguments("--headless=new");
         WebDriver webDriver = new ChromeDriver(options);
         setDriver(webDriver);
     }
